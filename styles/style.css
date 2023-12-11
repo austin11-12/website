@@ -8,17 +8,17 @@ header {
     font-size: 1.4rem;
     border-radius: 30px;
 }
-h2 {
-    text-align: center;
-    margin: 10%;
-    margin-bottom: 0;
-}
 p {
     text-align: center;
     font-size: 3rem;
+    font-family: 'Comic Sans MS';
+    margin-bottom: 0 0;
 }
 main img {
-    width: 100%;
+    width: 40%;
+    margin: 0 30%;
+    border-radius: 8px;
+    box-shadow: 0 6px 6px rgb(96, 96, 96)
 }
 a button {
     width: 50%;
@@ -30,8 +30,8 @@ a button {
     background-color: #002d5e;
 }
 @media (max-width: 500px){
-    header{
-        margin-left: 10%;
-        margin-right: 10%;
+    img {
+        width: 100%;
+        margin: 0 0;
     }
 }
